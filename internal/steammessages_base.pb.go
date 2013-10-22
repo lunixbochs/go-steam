@@ -495,6 +495,6 @@ var E_MsgpoolHardLimit = &proto.ExtensionDesc{
 }
 
 func init() {
-	proto.RegisterExtension(E_MsgpoolSoftLimit)
-	proto.RegisterExtension(E_MsgpoolHardLimit)
+	// proto.RegisterExtension(E_MsgpoolSoftLimit)
+	// proto.RegisterExtension(E_MsgpoolHardLimit)
 }
